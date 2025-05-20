@@ -1,0 +1,817 @@
+# Copyright (C) 2025 WPClever
+# This file is distributed under the GPLv2 or later.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Fly Cart for WooCommerce 5.9.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-fly-cart-"
+"premium\n"
+"POT-Creation-Date: 2025-02-12T10:38:34+00:00\n"
+"PO-Revision-Date: 2025-05-20 16:26+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Domain: woo-fly-cart\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Plugin Name of the plugin
+#: wpc-fly-cart.php
+#, fuzzy
+#| msgid "WPC Fly Cart for WooCommerce"
+msgid "WPC Fly Cart for WooCommerce (Premium)"
+msgstr "‫WPC Fly Cart برای WooCommerce"
+
+#. Plugin URI of the plugin
+#: wpc-fly-cart.php
+msgid "https://wpclever.net/"
+msgstr ""
+
+#. Description of the plugin
+#: wpc-fly-cart.php
+msgid ""
+"WPC Fly Cart is an interactive mini cart for WooCommerce. It allows users to "
+"update product quantities or remove products without reloading the page."
+msgstr ""
+"‫WPC Fly Cart یک سبدخرید تعاملی برای WooCommerce است. این امکان را به کاربران "
+"می دهد تا بدون بارگیری مجدد صفحه ، مقادیر محصول را به روز کنند یا محصولات را "
+"حذف کنند."
+
+#. Author of the plugin
+#: wpc-fly-cart.php
+msgid "WPClever"
+msgstr ""
+
+#. Author URI of the plugin
+#: wpc-fly-cart.php
+msgid "https://wpclever.net"
+msgstr ""
+
+#: wpc-fly-cart.php:264 wpc-fly-cart.php:1184
+msgid "Do you want to empty the cart?"
+msgstr "آیا می خواهید سبد خرید را خالی کنید؟"
+
+#: wpc-fly-cart.php:265 wpc-fly-cart.php:1139
+msgid "Do you want to remove this item?"
+msgstr "آیا می خواهید این مورد را حذف کنید؟"
+
+#: wpc-fly-cart.php:266 wpc-fly-cart.php:1150
+msgid "Undo?"
+msgstr "بازگردانی؟"
+
+#. translators: product
+#: wpc-fly-cart.php:267 wpc-fly-cart.php:1162
+msgid "%s was removed."
+msgstr "‫%s حذف شد."
+
+#: wpc-fly-cart.php:320 wpc-fly-cart.php:387
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: wpc-fly-cart.php:337
+msgid "Community support"
+msgstr "پشتیبانی"
+
+#: wpc-fly-cart.php:355 wpc-fly-cart.php:365
+msgid "WPC Fly Cart"
+msgstr ""
+
+#: wpc-fly-cart.php:355
+msgid "Fly Cart"
+msgstr ""
+
+#: wpc-fly-cart.php:365
+msgid "Premium"
+msgstr ""
+
+#. translators: stars
+#: wpc-fly-cart.php:368
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a full "
+"five-star %s rating."
+msgstr ""
+"با تشکر از شما برای استفاده از افزونه ما! اگر راضی هستید ، لطفاً آن را به یک "
+"امتیاز کامل 5 ستاره %s دهید."
+
+#: wpc-fly-cart.php:371
+msgid "Reviews"
+msgstr "بررسی"
+
+#: wpc-fly-cart.php:373
+msgid "Changelog"
+msgstr ""
+
+#: wpc-fly-cart.php:375
+msgid "Discussion"
+msgstr "بحث"
+
+#: wpc-fly-cart.php:380
+msgid "Settings updated."
+msgstr "تنظیمات به روز شده است."
+
+#: wpc-fly-cart.php:391 wpc-fly-cart.php:1094
+msgid "Localization"
+msgstr "بومی سازی"
+
+#: wpc-fly-cart.php:396
+msgid "Premium Version"
+msgstr "نسخه پریمیوم"
+
+#: wpc-fly-cart.php:400
+msgid "Support"
+msgstr ""
+
+#: wpc-fly-cart.php:404
+msgid "Essential Kit"
+msgstr "کیت ضروری"
+
+#: wpc-fly-cart.php:458
+msgid "General"
+msgstr "عمومی"
+
+#: wpc-fly-cart.php:459
+msgid "General settings for the fly cart."
+msgstr "تنظیمات عمومی برای سبد پرواز."
+
+#: wpc-fly-cart.php:462
+msgid "Open on AJAX add to cart"
+msgstr "باز کردن روی Ajax به سبد خرید"
+
+#: wpc-fly-cart.php:465 wpc-fly-cart.php:475 wpc-fly-cart.php:485
+#: wpc-fly-cart.php:504 wpc-fly-cart.php:526 wpc-fly-cart.php:584
+#: wpc-fly-cart.php:761 wpc-fly-cart.php:771 wpc-fly-cart.php:863
+#: wpc-fly-cart.php:872 wpc-fly-cart.php:883 wpc-fly-cart.php:902
+#: wpc-fly-cart.php:944 wpc-fly-cart.php:954 wpc-fly-cart.php:964
+#: wpc-fly-cart.php:998 wpc-fly-cart.php:1035
+msgid "Yes"
+msgstr "بله"
+
+#: wpc-fly-cart.php:466 wpc-fly-cart.php:476 wpc-fly-cart.php:486
+#: wpc-fly-cart.php:505 wpc-fly-cart.php:527 wpc-fly-cart.php:585
+#: wpc-fly-cart.php:607 wpc-fly-cart.php:762 wpc-fly-cart.php:772
+#: wpc-fly-cart.php:841 wpc-fly-cart.php:864 wpc-fly-cart.php:873
+#: wpc-fly-cart.php:884 wpc-fly-cart.php:903 wpc-fly-cart.php:945
+#: wpc-fly-cart.php:955 wpc-fly-cart.php:965 wpc-fly-cart.php:999
+#: wpc-fly-cart.php:1036
+msgid "No"
+msgstr "خیر"
+
+#. translators: link
+#: wpc-fly-cart.php:468
+msgid ""
+"The fly cart will be opened immediately after whenever click to AJAX Add to "
+"cart buttons? See %1$s \"Add to cart behaviour\" setting %2$s"
+msgstr ""
+
+#: wpc-fly-cart.php:472
+msgid "Open on normal add to cart"
+msgstr "در سبد خرید عادی باز کنید"
+
+#: wpc-fly-cart.php:478
+msgid ""
+"The fly cart will be opened immediately after whenever click to normal Add to "
+"cart buttons (AJAX is not enable) or Add to cart button in single product "
+"page?"
+msgstr ""
+
+#: wpc-fly-cart.php:482
+msgid "Reverse items"
+msgstr ""
+
+#: wpc-fly-cart.php:491
+msgid "Overlay layer"
+msgstr ""
+
+#: wpc-fly-cart.php:494 wpc-fly-cart.php:594 wpc-fly-cart.php:617
+#: wpc-fly-cart.php:638 wpc-fly-cart.php:650 wpc-fly-cart.php:660
+#: wpc-fly-cart.php:670 wpc-fly-cart.php:681 wpc-fly-cart.php:690
+#: wpc-fly-cart.php:699 wpc-fly-cart.php:710 wpc-fly-cart.php:719
+#: wpc-fly-cart.php:728 wpc-fly-cart.php:739 wpc-fly-cart.php:892
+#: wpc-fly-cart.php:912 wpc-fly-cart.php:923
+msgid "Show"
+msgstr "نشان دادن"
+
+#: wpc-fly-cart.php:495 wpc-fly-cart.php:595 wpc-fly-cart.php:618
+#: wpc-fly-cart.php:627 wpc-fly-cart.php:639 wpc-fly-cart.php:651
+#: wpc-fly-cart.php:661 wpc-fly-cart.php:671 wpc-fly-cart.php:682
+#: wpc-fly-cart.php:691 wpc-fly-cart.php:700 wpc-fly-cart.php:711
+#: wpc-fly-cart.php:720 wpc-fly-cart.php:729 wpc-fly-cart.php:740
+#: wpc-fly-cart.php:751 wpc-fly-cart.php:893 wpc-fly-cart.php:913
+#: wpc-fly-cart.php:924
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#: wpc-fly-cart.php:497
+msgid ""
+"If you hide the overlay layer, the buyer still can work on your site when the "
+"fly cart is opening."
+msgstr ""
+"اگر لایه پوشش را پنهان کنید ، خریدار هنوز هم می تواند هنگام باز شدن سبد پرواز "
+"در سایت شما کار کند."
+
+#: wpc-fly-cart.php:501
+msgid "Use perfect-scrollbar"
+msgstr ""
+
+#. translators: link
+#: wpc-fly-cart.php:507
+msgid "Read more about %s"
+msgstr "اطلاعات بیشتر در مورد %s"
+
+#: wpc-fly-cart.php:511 wpc-fly-cart.php:1004
+msgid "Position"
+msgstr "موقعیت"
+
+#: wpc-fly-cart.php:514
+msgid "Right"
+msgstr "راست"
+
+#: wpc-fly-cart.php:515
+msgid "Left"
+msgstr "چپ"
+
+#: wpc-fly-cart.php:516
+msgid "Top"
+msgstr "بالا"
+
+#: wpc-fly-cart.php:517
+msgid "Bottom"
+msgstr "پایین"
+
+#: wpc-fly-cart.php:518
+msgid "Center"
+msgstr "مرکز"
+
+#: wpc-fly-cart.php:523
+msgid "Effect"
+msgstr "افکت"
+
+#: wpc-fly-cart.php:529
+msgid "Enable/disable slide effect."
+msgstr "افکت اسلاید را فعال یا غیرفعال کنید."
+
+#: wpc-fly-cart.php:533
+msgid "Style"
+msgstr "سبک"
+
+#: wpc-fly-cart.php:537
+msgid "Color background"
+msgstr "پس زمینه رنگی"
+
+#: wpc-fly-cart.php:538
+msgid "White background"
+msgstr "پس زمینه"
+
+#: wpc-fly-cart.php:539
+msgid "Color background, no thumbnail"
+msgstr "پس زمینه رنگی ، بدون تصویر کوچک"
+
+#: wpc-fly-cart.php:540
+msgid "White background, no thumbnail"
+msgstr "پس زمینه سفید ، بدون تصویر کوچک"
+
+#: wpc-fly-cart.php:541 wpc-fly-cart.php:566
+msgid "Background image"
+msgstr "تصویر پس زمینه"
+
+#: wpc-fly-cart.php:555
+msgid "Color"
+msgstr "رنگ"
+
+#. translators: color
+#: wpc-fly-cart.php:562
+msgid "Background or text color of selected style, default %s"
+msgstr "پس زمینه یا رنگ متن از سبک انتخاب شده ، پیش فرض %s"
+
+#: wpc-fly-cart.php:574
+msgid "Upload image"
+msgstr "بارگذاری تصویر"
+
+#: wpc-fly-cart.php:581
+msgid "Rounded"
+msgstr "گرد شده"
+
+#: wpc-fly-cart.php:587
+msgid "Enable/disable rounded style for elements."
+msgstr "استایل گرد را برای عناصر فعال یا غیرفعال کنید."
+
+#: wpc-fly-cart.php:591
+msgid "Close button"
+msgstr "دکمه بستن"
+
+#: wpc-fly-cart.php:597
+msgid "Show/hide the close button."
+msgstr "دکمه بستن را نمایش داده و مخفی کنید."
+
+#: wpc-fly-cart.php:601
+msgid "Link to individual product"
+msgstr "پیوند به هر محصول"
+
+#: wpc-fly-cart.php:604
+msgid "Yes, open in the same tab"
+msgstr "بله ، در همان برگه باز کنید"
+
+#: wpc-fly-cart.php:605
+msgid "Yes, open in the new tab"
+msgstr "بله ، در برگه جدید باز شوید"
+
+#: wpc-fly-cart.php:606
+msgid "Yes, open quick view popup"
+msgstr "بله ، بازشو سریع را باز کنید"
+
+#: wpc-fly-cart.php:614
+msgid "Item data"
+msgstr "داده های مورد"
+
+#: wpc-fly-cart.php:620
+msgid "Show/hide the item data under title."
+msgstr "داده های مورد را تحت عنوان نمایش داده و مخفی کنید."
+
+#: wpc-fly-cart.php:624
+msgid "Item price"
+msgstr "قیمت کالا"
+
+#: wpc-fly-cart.php:628
+msgid "Price"
+msgstr "قیمت"
+
+#: wpc-fly-cart.php:629 wpc-fly-cart.php:678 wpc-fly-cart.php:1200
+#: wpc-fly-cart.php:1206 wpc-fly-cart.php:1802
+msgid "Subtotal"
+msgstr "زیرنویس"
+
+#: wpc-fly-cart.php:631
+msgid "Show/hide the item price or subtotal under title."
+msgstr "قیمت کالای مورد یا زیرنویس را تحت عنوان نشان داده و مخفی کنید."
+
+#: wpc-fly-cart.php:635
+msgid "Item estimated delivery date"
+msgstr "مورد تخمین زده شده تاریخ تحویل"
+
+#: wpc-fly-cart.php:641
+msgid "Show/hide the item estimated delivery date."
+msgstr "تاریخ تحویل تخمین زده شده مورد را نشان دهید/مخفی کنید."
+
+#: wpc-fly-cart.php:647
+msgid "Plus/minus button"
+msgstr ""
+
+#: wpc-fly-cart.php:653
+msgid "Show/hide the plus/minus button."
+msgstr "دکمه Plus/minus را نشان دهید/پنهان کنید."
+
+#: wpc-fly-cart.php:657
+msgid "Item remove"
+msgstr "مورد حذف"
+
+#: wpc-fly-cart.php:663
+msgid "Show/hide the remove button for each item."
+msgstr "دکمه حذف را برای هر مورد نمایش داده و مخفی کنید."
+
+#: wpc-fly-cart.php:667
+msgid "Save for later"
+msgstr "بعد از آن صرفه جویی کنید"
+
+#: wpc-fly-cart.php:687
+msgid "Coupon"
+msgstr "کوپن"
+
+#: wpc-fly-cart.php:696
+msgid "Coupon listing"
+msgstr "لیست کوپن"
+
+#: wpc-fly-cart.php:707
+msgid "Shipping cost"
+msgstr "هزینه حمل و نقل"
+
+#: wpc-fly-cart.php:716
+msgid "Shipping calculator"
+msgstr ""
+
+#: wpc-fly-cart.php:725
+msgid "Free shipping bar"
+msgstr ""
+
+#: wpc-fly-cart.php:736 wpc-fly-cart.php:1244 wpc-fly-cart.php:1250
+#: wpc-fly-cart.php:1923
+msgid "Total"
+msgstr "مجموع"
+
+#: wpc-fly-cart.php:745
+msgid "Action buttons"
+msgstr "دکمه های عمل"
+
+#: wpc-fly-cart.php:748
+msgid "Cart & Checkout"
+msgstr "سبد خرید و پرداخت"
+
+#: wpc-fly-cart.php:749
+msgid "Cart only"
+msgstr "فقط سبد خرید"
+
+#: wpc-fly-cart.php:750
+msgid "Checkout only"
+msgstr "فقط پرداخت"
+
+#: wpc-fly-cart.php:756
+msgid "Instant checkout"
+msgstr "پرداخت فوری"
+
+#: wpc-fly-cart.php:764
+msgid "If enable this option, buyer can checkout directly on the fly cart."
+msgstr ""
+"در صورت فعال کردن این گزینه ، خریدار می تواند مستقیماً روی سبد پرواز پرداخت "
+"کند."
+
+#: wpc-fly-cart.php:768
+msgid "Open instant checkout immediately"
+msgstr "پرداخت فوری را بلافاصله باز کنید"
+
+#: wpc-fly-cart.php:774
+msgid ""
+"Open instant checkout form immediately after adding a product to the cart."
+msgstr ""
+"فرم پرداخت فوری را بلافاصله پس از اضافه کردن یک محصول به سبد خرید باز کنید."
+
+#: wpc-fly-cart.php:778 wpc-fly-cart.php:1288
+msgid "Suggested products"
+msgstr "محصولات پیشنهادی"
+
+#: wpc-fly-cart.php:804
+msgid "Related"
+msgstr "مربوط"
+
+#: wpc-fly-cart.php:808
+msgid "Upsells"
+msgstr "فروشندگان"
+
+#: wpc-fly-cart.php:812
+msgid "Cross-sells"
+msgstr "متقاطع"
+
+#: wpc-fly-cart.php:816
+msgid "Wishlist"
+msgstr "لیست خواسته"
+
+#: wpc-fly-cart.php:823
+msgid "Compare"
+msgstr "مقایسه کردن"
+
+#: wpc-fly-cart.php:838
+msgid "Suggested for empty cart"
+msgstr "برای سبد خالی پیشنهاد شده است"
+
+#: wpc-fly-cart.php:842
+msgid "Recent products"
+msgstr "محصولات اخیر"
+
+#: wpc-fly-cart.php:843
+msgid "On-sale products"
+msgstr "محصولات فروش"
+
+#: wpc-fly-cart.php:844
+msgid "Featured products"
+msgstr "محصولات برجسته"
+
+#: wpc-fly-cart.php:845
+msgid "Random products"
+msgstr "محصولات تصادفی"
+
+#: wpc-fly-cart.php:850
+msgid "Suggested products limit"
+msgstr "محدودیت محصولات پیشنهادی"
+
+#: wpc-fly-cart.php:860
+msgid "Suggested products carousel"
+msgstr "محصولات پیشنهادی carousel"
+
+#: wpc-fly-cart.php:869
+msgid "Upsell funnel products"
+msgstr "محصولات Upsell"
+
+#: wpc-fly-cart.php:880
+msgid "Upsell funnel products carousel"
+msgstr ""
+
+#: wpc-fly-cart.php:889 wpc-fly-cart.php:1167 wpc-fly-cart.php:1173
+#: wpc-fly-cart.php:1790
+msgid "Empty cart"
+msgstr "سبد خالی"
+
+#: wpc-fly-cart.php:895
+msgid "Show/hide the empty cart button under the product list."
+msgstr "دکمه سبد خرید خالی را در زیر لیست محصول نمایش داده و مخفی کنید."
+
+#: wpc-fly-cart.php:899 wpc-fly-cart.php:1178
+msgid "Confirm empty"
+msgstr "خالی کردن"
+
+#: wpc-fly-cart.php:905
+msgid "Enable/disable confirm before emptying the cart."
+msgstr "قبل از خالی کردن سبد خرید را فعال یا غیرفعال کنید."
+
+#: wpc-fly-cart.php:909 wpc-fly-cart.php:1189 wpc-fly-cart.php:1195
+#: wpc-fly-cart.php:1794
+msgid "Share cart"
+msgstr "سبد خرید"
+
+#: wpc-fly-cart.php:920 wpc-fly-cart.php:1277 wpc-fly-cart.php:1283
+#: wpc-fly-cart.php:1971
+msgid "Continue shopping"
+msgstr "به خرید ادامه دهید"
+
+#: wpc-fly-cart.php:926
+msgid "Show/hide the continue shopping button at the end of fly cart."
+msgstr "دکمه ادامه خرید را در انتهای سبد خرید نشان دهید/پنهان کنید."
+
+#: wpc-fly-cart.php:930
+msgid "Continue shopping URL"
+msgstr "URL خرید را ادامه دهید"
+
+#: wpc-fly-cart.php:937
+msgid ""
+"Custom URL for \"continue shopping\" button. By default, only close the fly "
+"cart when clicking on this button."
+msgstr ""
+"URL سفارشی برای دکمه \"ادامه خرید\". به طور پیش فرض ، فقط هنگام کلیک روی این "
+"دکمه ، سبد پرواز را ببندید."
+
+#: wpc-fly-cart.php:941 wpc-fly-cart.php:1133
+msgid "Confirm remove"
+msgstr "تأیید حذف"
+
+#: wpc-fly-cart.php:947
+msgid "Enable/disable confirm before removing a product."
+msgstr "قبل از حذف محصول ، تأیید/غیرفعال کنید."
+
+#: wpc-fly-cart.php:951 wpc-fly-cart.php:1144
+msgid "Undo remove"
+msgstr "حذف را حذف کنید"
+
+#: wpc-fly-cart.php:957
+msgid "Enable/disable undo after removing a product."
+msgstr "پس از حذف یک محصول ، خاموش کردن/غیرفعال کردن را فعال کنید."
+
+#: wpc-fly-cart.php:961
+msgid "Reload the cart"
+msgstr "بارگذاری مجدد سبد خرید"
+
+#: wpc-fly-cart.php:967
+msgid ""
+"The cart will be reloaded when opening the page? If you use the cache for "
+"your site, please turn on this option."
+msgstr ""
+"سبد خرید هنگام باز کردن صفحه بارگیری مجدد می شود؟ اگر از حافظه نهان برای سایت "
+"خود استفاده می کنید ، لطفاً این گزینه را روشن کنید."
+
+#: wpc-fly-cart.php:971
+msgid "Hide on pages"
+msgstr "در صفحات پنهان شوید"
+
+#: wpc-fly-cart.php:987
+msgid "Hide the fly cart on these pages."
+msgstr "سبد پرواز را در این صفحات پنهان کنید."
+
+#: wpc-fly-cart.php:991
+msgid "Bubble"
+msgstr ""
+
+#: wpc-fly-cart.php:992
+msgid "Settings for the bubble."
+msgstr ""
+
+#: wpc-fly-cart.php:995
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: wpc-fly-cart.php:1007
+msgid "Top Left"
+msgstr "بالا سمت چپ"
+
+#: wpc-fly-cart.php:1008
+msgid "Top Right"
+msgstr "بالا"
+
+#: wpc-fly-cart.php:1009
+msgid "Bottom Left"
+msgstr "پایین سمت چپ"
+
+#: wpc-fly-cart.php:1010
+msgid "Bottom Right"
+msgstr "پایین سمت راست"
+
+#: wpc-fly-cart.php:1015
+msgid "Icon"
+msgstr "نماد"
+
+#: wpc-fly-cart.php:1032
+msgid "Hide if empty"
+msgstr "اگر خالی است پنهان شوید"
+
+#: wpc-fly-cart.php:1038
+msgid "Hide the bubble if the cart is empty?"
+msgstr ""
+
+#: wpc-fly-cart.php:1042
+msgid "Menu"
+msgstr "منو"
+
+#: wpc-fly-cart.php:1043
+msgid "Settings for cart menu item."
+msgstr "تنظیمات مورد منوی سبد خرید."
+
+#: wpc-fly-cart.php:1046
+msgid "Menu(s)"
+msgstr "منو (ها)"
+
+#: wpc-fly-cart.php:1065
+msgid "Haven't any menu yet. Please go to Appearance > Menus to create one."
+msgstr "هنوز هیچ منویی ندارید. لطفاً برای ایجاد یکی به ظاهر> منوها بروید."
+
+#: wpc-fly-cart.php:1068
+msgid "Choose the menu(s) you want to add the cart at the end."
+msgstr "منو (های) مورد نظر خود را در انتها انتخاب کنید."
+
+#: wpc-fly-cart.php:1072
+msgid "Custom menu"
+msgstr "منوی سفارشی"
+
+#: wpc-fly-cart.php:1078
+msgid "button class or id"
+msgstr "کلاس یا شناسه دکمه"
+
+#. translators: selector
+#: wpc-fly-cart.php:1080
+msgid ""
+"The class or id of the custom menu. When clicking on it, the fly cart will "
+"show up. Example %1$s or %2$s"
+msgstr ""
+
+#: wpc-fly-cart.php:1096
+msgid ""
+"Leave blank to use the default text and its equivalent translation in "
+"multiple languages."
+msgstr ""
+
+#: wpc-fly-cart.php:1100
+msgid "Cart heading"
+msgstr "عنوان سبد خرید"
+
+#: wpc-fly-cart.php:1106 wpc-fly-cart.php:1575
+msgid "Shopping cart"
+msgstr "سبد خرید"
+
+#: wpc-fly-cart.php:1111 wpc-fly-cart.php:1117 wpc-fly-cart.php:1578
+#: wpc-fly-cart.php:2047
+msgid "Close"
+msgstr "نزدیک"
+
+#. translators: product
+#: wpc-fly-cart.php:1122 wpc-fly-cart.php:1128 wpc-fly-cart.php:1723
+msgid "Remove"
+msgstr "برداشتن"
+
+#: wpc-fly-cart.php:1155
+msgid "Removed"
+msgstr "حذف شده"
+
+#: wpc-fly-cart.php:1211 wpc-fly-cart.php:1217 wpc-fly-cart.php:1809
+msgid "Coupon code"
+msgstr "کد کوپن"
+
+#: wpc-fly-cart.php:1222
+msgid "Coupon apply"
+msgstr "کوپن اعمال می شود"
+
+#: wpc-fly-cart.php:1228 wpc-fly-cart.php:1809
+msgid "Apply"
+msgstr "درخواست کردن"
+
+#: wpc-fly-cart.php:1233 wpc-fly-cart.php:1239 wpc-fly-cart.php:1860
+#: wpc-fly-cart.php:1913
+msgid "Shipping"
+msgstr "حمل"
+
+#: wpc-fly-cart.php:1255 wpc-fly-cart.php:1261 wpc-fly-cart.php:1931
+#: wpc-fly-cart.php:1935 wpc-fly-cart.php:2043
+msgid "Cart"
+msgstr "چرخ"
+
+#: wpc-fly-cart.php:1266 wpc-fly-cart.php:1272 wpc-fly-cart.php:1931
+#: wpc-fly-cart.php:1940 wpc-fly-cart.php:2044
+msgid "Checkout"
+msgstr "پرداخت"
+
+#: wpc-fly-cart.php:1294 wpc-fly-cart.php:1993
+msgid "You may be interested in&hellip;"
+msgstr "شما ممکن است علاقه مند به ..."
+
+#: wpc-fly-cart.php:1299
+msgid "There are no products"
+msgstr "هیچ محصولی وجود ندارد"
+
+#: wpc-fly-cart.php:1305 wpc-fly-cart.php:1734
+msgid "There are no products in the cart!"
+msgstr "هیچ محصولی در سبد خرید وجود ندارد!"
+
+#. translators: product
+#: wpc-fly-cart.php:1723
+msgid "Remove %s from cart"
+msgstr "حذف %s از سبد خرید"
+
+#: wpc-fly-cart.php:1824
+#, fuzzy
+#| msgid "Shipping cost"
+msgid "Free shipping coupon"
+msgstr "هزینه حمل و نقل"
+
+#: wpc-fly-cart.php:1853
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#. translators: destination
+#: wpc-fly-cart.php:1855 wpc-fly-cart.php:1904
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: wpc-fly-cart.php:1876
+#, fuzzy
+#| msgid "Shipping cost"
+msgid "Shipping to:"
+msgstr "هزینه حمل و نقل"
+
+#: wpc-fly-cart.php:1877
+msgid "Change address"
+msgstr ""
+
+#: wpc-fly-cart.php:1879
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: wpc-fly-cart.php:1902
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#. translators: destination
+#: wpc-fly-cart.php:1905
+msgid "Enter a different address"
+msgstr ""
+
+#: wpc-fly-cart.php:2187
+msgid "Before cart"
+msgstr "قبل از سبد خرید"
+
+#: wpc-fly-cart.php:2188
+msgid "After cart"
+msgstr "بعد از سبد"
+
+#: wpc-fly-cart.php:2189
+msgid "Before cart items"
+msgstr "قبل از موارد سبد خرید"
+
+#: wpc-fly-cart.php:2190
+msgid "After cart items"
+msgstr "بعد از وسایل سبد خرید"
+
+#: wpc-fly-cart.php:2191
+msgid "Before cart item"
+msgstr "قبل از کالای سبد خرید"
+
+#: wpc-fly-cart.php:2192
+msgid "After cart item"
+msgstr "بعد از کالای سبد خرید"
+
+#: wpc-fly-cart.php:2193
+msgid "Before cart item info"
+msgstr "قبل از اطلاعات مربوط به سبد خرید"
+
+#: wpc-fly-cart.php:2194
+msgid "After cart item info"
+msgstr "بعد از اطلاعات مربوط به سبد خرید"
+
+#: wpc-fly-cart.php:2195
+msgid "Before cart item name"
+msgstr "قبل از نام کالای سبد خرید"
+
+#: wpc-fly-cart.php:2196
+msgid "After cart item name"
+msgstr "بعد از نام کالای سبد خرید"
+
+#: wpc-fly-cart.php:2197
+msgid "Before suggested products"
+msgstr "قبل از محصولات پیشنهادی"
+
+#: wpc-fly-cart.php:2198
+msgid "After suggested products"
+msgstr "پس از محصولات پیشنهادی"
+
+#: wpc-fly-cart.php:2199
+msgid "Before buttons"
+msgstr "قبل از دکمه ها"
+
+#: wpc-fly-cart.php:2200
+msgid "After buttons"
+msgstr "بعد از دکمه ها"
