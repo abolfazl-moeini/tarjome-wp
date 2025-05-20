@@ -341,7 +341,7 @@ msgstr "قیمت"
 #: wpc-fly-cart.php:629 wpc-fly-cart.php:678 wpc-fly-cart.php:1200
 #: wpc-fly-cart.php:1206 wpc-fly-cart.php:1802
 msgid "Subtotal"
-msgstr "زیرنویس"
+msgstr "جمع مبلغ کالاها"
 
 #: wpc-fly-cart.php:631
 msgid "Show/hide the item price or subtotal under title."
@@ -398,7 +398,7 @@ msgstr ""
 #: wpc-fly-cart.php:736 wpc-fly-cart.php:1244 wpc-fly-cart.php:1250
 #: wpc-fly-cart.php:1923
 msgid "Total"
-msgstr "مجموع"
+msgstr "مبلغ قابل پرداخت"
 
 #: wpc-fly-cart.php:745
 msgid "Action buttons"
